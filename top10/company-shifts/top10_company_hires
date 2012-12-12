@@ -1,0 +1,238 @@
+"from_company_name";"mycount"
+"AIG";7
+"HP Enterprise Services";6
+"General Motors";3
+"UBS Wealth Management";3
+"John Wiley and Sons";3
+"ING Nederland";3
+"Bio-Rad Laboratories";3
+"GE Oil & Gas";3
+"Boeing Commercial Airplanes";3
+"Novartis Consumer Health";3
+"HCA";3
+"Robert Half International";3
+"STMicroelectronics";2
+"AmBev";2
+"Equifax";2
+"bebe stores";2
+"AMD";2
+"Deutsche Bank";2
+"Kinross Gold Corporation";2
+"Palo Alto Networks";2
+"American Eagle Outfitters";2
+"Dex One";2
+"Ralph Lauren";2
+"Franklin Templeton Investments";2
+"Check Point Software Technologies";2
+"Caribou Coffee";2
+"Carter's | OshKosh B'gosh";2
+"SunTrust Bank";2
+"Aetna";2
+"Acuity Brands Lighting";2
+"Amazon Web Services";2
+"ANN INC.";2
+"HP Software";2
+"Plains All American";2
+"Allscripts";2
+"Progressive Insurance";2
+"Legg Mason";2
+"Martha Stewart Living Omnimedia";2
+"HSBC";2
+"McDermott International Inc.";2
+"GE Power & Water";2
+"Smith & Nephew";2
+"Anheuser-Busch InBev";2
+"Delphi Diesel Systems";2
+"Nokia Siemens Networks";2
+"PerkinElmer";2
+"BlackRock";2
+"Alcoa";2
+"KBR Building Group";2
+"Altera";2
+"Office Depot";2
+"Ebix";1
+"COPEL";1
+"INTL FCStone Inc.";1
+"Brown Shoe Company";1
+"BASi";1
+"Comcast Cable";1
+"ITW";1
+"Asbury Automotive Group";1
+"Diamond Hill Investments";1
+"Parker Drilling Company";1
+"Pandora";1
+"ArcelorMittal";1
+"BRE Properties";1
+"L-3 Integrated Systems Group";1
+"Five Below";1
+"Starwood Hotels & Resorts Worldwide, Inc.";1
+"Fluor";1
+"URS Flint";1
+"Raytheon Space and Airborne Systems";1
+"IAMGOLD Corporation";1
+"Applied Materials";1
+"Family Dollar";1
+"The Hartford";1
+"Ternium";1
+"Encana Corporation";1
+"Noble Drilling";1
+"CenturyLink";1
+"Hanesbrands Inc.";1
+"Covanta Energy";1
+"Edwards";1
+"Magna Exteriors and Interiors";1
+"PPG Industries";1
+"Gafisa";1
+"Dynamics Research Corporation";1
+"American Water";1
+"ICON plc";1
+"BlueScope Steel";1
+"Avista";1
+"Belden Inc.";1
+"Hyatt Regency";1
+"On Assignment";1
+"Anixter";1
+"CIBC";1
+"Abiomed";1
+"Mueller Water Products";1
+"Philips Healthcare";1
+"Blue Nile";1
+"Exa Corporation";1
+"BT Global Services";1
+"Kohl's Department Stores";1
+"Cinemark";1
+"RadioShack";1
+"Dealertrack Technologies";1
+"Cenovus Energy";1
+"Chico's FAS Inc.";1
+"Fossil";1
+"A.D.A.M., Inc.";1
+"Honeywell Aerospace";1
+"Pacific Drilling";1
+"RBC Dominion Securities";1
+"GMCR Canada";1
+"Invesco";1
+"Comcast Spotlight";1
+"New York & Company";1
+"IMI";1
+"Fidelity National Information Services";1
+"Bally Technologies";1
+"Moody's Analytics";1
+"Brightcove";1
+"Lowe's Home Improvement";1
+"Pembina Pipeline Corporation";1
+"Noble Energy";1
+"HomeAway.com";1
+"FTI Consulting";1
+"Hess Corporation";1
+"BioReference Laboratories";1
+"Owens Corning";1
+"Energizer";1
+"FedEx Express";1
+"Cummins Inc.";1
+"Centene Corporation";1
+"GE Aviation";1
+"PolyOne";1
+"General Mills";1
+"Schlumberger";1
+"Arc Worldwide";1
+"Guggenheim Partners";1
+"CA Technologies";1
+"Hologic";1
+"Hewlett-Packard Financial Services";1
+"ExxonMobil";1
+"GenOn Energy";1
+"Oxy";1
+"KBR, Inc.";1
+"FirstMerit Bank";1
+"Manulife Financial";1
+"Centocor";1
+"Cumulus Broadcasting";1
+"Siemens Industry US";1
+"Penn West Exploration";1
+"Freeport-McMoRan Copper & Gold Inc.";1
+"Amdocs";1
+"Duff & Phelps";1
+"Ancestry.com";1
+"AT&T Mobility";1
+"Dr. Reddy's Laboratories";1
+"NetSuite";1
+"Freescale Semiconductor";1
+"McGraw-Hill";1
+"Columbia Sportswear";1
+"Swift Transportation";1
+"Stifel Financial Corp.";1
+"Limited Brands";1
+"Raymond James Financial Inc.";1
+"Chubb Insurance";1
+"Enbridge";1
+"ANSYS, Inc.";1
+"Cerner Corporation";1
+"Federal-Mogul Corporation";1
+"Marathon Petroleum Company";1
+"Ritchie Bros. Auctioneers";1
+"Stewart Title";1
+"ASML";1
+"Everest University-South Orlando Campus";1
+"Kennametal";1
+"Life Time Fitness";1
+"Pall Corporation";1
+"Philips Lighting";1
+"Quest Diagnostics";1
+"Cardinal Bank";1
+"HDFC Bank";1
+"Cintas";1
+"HSBC Commercial Banking";1
+"Banco Santander Chile";1
+"Janssen, Pharmaceutical Companies of Johnson and Johnson";1
+"Republic Services Inc";1
+"BMO";1
+"Syngenta Crop Protection";1
+"HFF";1
+"TeamHealth";1
+"Shopbop.com";1
+"Informa";1
+"National Oilwell Varco";1
+"M&T Bank";1
+"IDEXX Laboratories";1
+"Informatica";1
+"Bank of the Ozarks";1
+"Black Hills Corporation";1
+"Knoll";1
+"Enbridge Gas Distribution";1
+"DreamWorks Animation";1
+"Ironwood Pharmaceuticals";1
+"Rite Aid";1
+"Humana";1
+"HCA Physician Services";1
+"CEMEX";1
+"CommVault";1
+"CGGVeritas";1
+"Raytheon Network Centric Systems";1
+"Berry Plastics";1
+"H&E Equipment";1
+"Cumulus Media";1
+"LabCorp";1
+"RenaissanceRe";1
+"ICICI Bank";1
+"Eli Lilly and Company";1
+"The Buckle";1
+"B/E Aerospace";1
+"HSBC Securities";1
+"Healthways";1
+"FLIR Systems";1
+"PSEG";1
+"Autoliv Electronics";1
+"The Jacobs Group";1
+"Fifth Third Bank";1
+"Corning Life Sciences";1
+"EXPRESS";1
+"Philip Morris International";1
+"Cintas Document Management UK Ltd";1
+"BT Wholesale";1
+"Helen of Troy";1
+"Lennar";1
+"Huntington National Bank";1
+"Live Nation";1
+"Alere, Inc.";1
+"Accuray";1
