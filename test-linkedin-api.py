@@ -15,6 +15,12 @@ OAUTH_TOKEN_SECRET = '62d59740-8aec-420f-8068-a31c904c63f8'
 from linkedin import LinkedinAPI
 from pprint import pprint as pp
 import sys
+import json
+
+from pygments import highlight
+from pygments.lexers import JSONLexer
+from pygments.formatters import Terminal256Formatter
+
 
 l = LinkedinAPI(api_key = API_KEY,
               api_secret = API_SECRET,
@@ -22,7 +28,20 @@ l = LinkedinAPI(api_key = API_KEY,
               oauth_token_secret=OAUTH_TOKEN_SECRET,)
 
 
+# Get network updates
+my_network_updates = l.get('people/~/network/network-stats')
+print highlight(json.dumps(my_network_updates, indent=2), JSONLexer(), Terminal256Formatter())
+
+lo = LinkedinAPI(api_key = API_KEY,
+              api_secret = API_SECRET,
+              callback_url = None)
+
+oauth_tokens =  lo.get_authentication_tokens()
+print oauth_tokens
+
+
 # Get search results
+"""
 while(True):
   try:
     company_domain = raw_input("Company domain: ")
@@ -52,3 +71,4 @@ while(True):
           sys.stdin.read(1)
   except:
     pass
+"""
