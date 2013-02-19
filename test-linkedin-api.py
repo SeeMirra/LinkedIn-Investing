@@ -1,16 +1,8 @@
-"""
-Brad account
-API_KEY = 'ko0u7ep77k3k'
-API_SECRET = 'R6ZxOytLHoVNovC4'
-OAUTH_TOKEN = '40e92a9b-454b-489b-8ff3-9e0a1e059c73'
-OAUTH_TOKEN_SECRET = 'ebcf877e-6767-48ef-a90c-2d4d676f6912'
-"""
-
 # Praful Account
 API_KEY = 'ghxn2rzq9hdi'
 API_SECRET = 'TaYCyB20AXb0t5o0'
-OAUTH_TOKEN = '1fe3c246-9ddd-4ee2-8b55-3f77bee60a4e'
-OAUTH_TOKEN_SECRET = '62d59740-8aec-420f-8068-a31c904c63f8'
+OAUTH_TOKEN = '488161fe-28c7-4bd7-8be0-41163a4a77fe'
+OAUTH_TOKEN_SECRET = '4b347a52-a4b2-4298-8dd8-5f4875d414fa'
 
 from linkedin import LinkedinAPI
 from pprint import pprint as pp
@@ -25,14 +17,14 @@ l = LinkedinAPI(api_key=API_KEY,
 
 # Get network updates
 my_network_updates = l.get('people/~/network/network-stats')
-pp(json.dumps(my_network_updates, indent=4))
+print json.dumps(my_network_updates, indent=4)
 
 lo = LinkedinAPI(api_key=API_KEY,
         api_secret=API_SECRET,
         callback_url=None)
 
 oauth_tokens = lo.get_authentication_tokens()
-print oauth_tokens
+pp(oauth_tokens)
 
 
 # Get search results
