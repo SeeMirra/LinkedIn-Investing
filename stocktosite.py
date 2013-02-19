@@ -8,34 +8,18 @@ from linkedin import LinkedinAPI
 from urlparse import urlparse
 from datetime import datetime
 
-# LinkedIn Constants
-"""
-# Praful Mathur
-API_KEY = 'ghxn2rzq9hdi'
-API_SECRET = 'TaYCyB20AXb0t5o0'
-OAUTH_TOKEN = '1fe3c246-9ddd-4ee2-8b55-3f77bee60a4e'
-OAUTH_TOKEN_SECRET = '62d59740-8aec-420f-8068-a31c904c63f8'
-"""
-
-# Joe Startup
-"""
-API_KEY = '29bsmtimu742'
-API_SECRET = 'VHAKjMM3HpXHCgsm'
-OAUTH_TOKEN = '5aa7807e-ad2e-4360-99ec-f3bf3ed5cf56'
-OAUTH_TOKEN_SECRET = '317facaf-374f-4c87-a984-4a0c3ea95fbc'
-"""
-
 API_KEY = 'yx5n43kkh749'
 API_SECRET = 'kT8leTdqx2QUMsAW'
 OAUTH_TOKEN = '973e6614-28ec-49a8-ab76-98d4078d0392'
 OAUTH_TOKEN_SECRET = '647afa78-ae06-4ce7-ab55-3d7d38fb6568'
 
-li = LinkedinAPI(api_key = API_KEY,
-        api_secret = API_SECRET,
-        oauth_token= OAUTH_TOKEN,
+li = LinkedinAPI(api_key=API_KEY,
+        api_secret=API_SECRET,
+        oauth_token=OAUTH_TOKEN,
         oauth_token_secret=OAUTH_TOKEN_SECRET,)
 
 seen_domains = []
+
 
 def xpath_get(mydict, path):
     elem = mydict
@@ -73,7 +57,7 @@ for sq in f.readlines():
     try:
         link = soup.find(id="fs-chome").getText().strip('\n').lower()
         link = urlparse(link).hostname
-        company_domain = link.replace('www.','')
+        company_domain = link.replace('www.', '')
         if(company_domain in seen_domains):
             print 'Seen domain before...'
             continue
@@ -85,7 +69,7 @@ for sq in f.readlines():
 
     try:
         print 'Does this exist on LinkedIn?'
-        companies_search = li.get('companies', params={'email-domain' : company_domain })
+        companies_search = li.get('companies', params={'email-domain': company_domain})
         print 'Exists on LinkedIn!'
 
         for company_search in companies_search['values']:
@@ -107,7 +91,7 @@ for sq in f.readlines():
                 f.write('-------------\n')
                 f.close()
 
-            if not company_person_updates.has_key('values'):
+            if not 'values' in company_person_updates:
                 continue
 
             values = company_person_updates['values']
