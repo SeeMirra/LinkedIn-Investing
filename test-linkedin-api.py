@@ -9,26 +9,28 @@ OAUTH_TOKEN_SECRET = 'ebcf877e-6767-48ef-a90c-2d4d676f6912'
 # Praful Account
 API_KEY = 'ghxn2rzq9hdi'
 API_SECRET = 'TaYCyB20AXb0t5o0'
-OAUTH_TOKEN = '1fe3c246-9ddd-4ee2-8b55-3f77bee60a4e'
-OAUTH_TOKEN_SECRET = '62d59740-8aec-420f-8068-a31c904c63f8'
+OAUTH_TOKEN = '908ac8c2-1574-4033-bbf3-d409dfe8baf0'
+OAUTH_TOKEN_SECRET = '5f15124b-13f6-4f7f-a372-5ce475435013'
 
 from linkedin import LinkedinAPI
 from pprint import pprint as pp
 import sys
 
-l = LinkedinAPI(api_key = API_KEY,
-              api_secret = API_SECRET,
-              oauth_token= OAUTH_TOKEN,
-              oauth_token_secret=OAUTH_TOKEN_SECRET,)
+l = LinkedinAPI(API_KEY,
+              API_SECRET,
+              OAUTH_TOKEN,
+              OAUTH_TOKEN_SECRET)
 
 
 # Get search results
 while(True):
   try:
-    company_domain = raw_input("Company domain: ")
+    company_domain = raw_input("Company domain (stop to quit): ")
+    if company_domain == "stop":
+      break
     companies_search = l.get('companies', params={'email-domain' : company_domain })
     print companies_search
-
+	
     for company_search in companies_search['values']:
       print company_search['name']
       company_id = company_search['id']
