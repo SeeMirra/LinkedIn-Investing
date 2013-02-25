@@ -16,10 +16,10 @@ from linkedin import LinkedinAPI
 from pprint import pprint as pp
 import sys
 
-l = LinkedinAPI(API_KEY,
-              API_SECRET,
-              OAUTH_TOKEN,
-              OAUTH_TOKEN_SECRET)
+l = LinkedinAPI(api_key = API_KEY,
+              api_secret = API_SECRET,
+              oauth_token= OAUTH_TOKEN,
+              oauth_token_secret=OAUTH_TOKEN_SECRET,)
 
 
 # Get search results
@@ -31,26 +31,26 @@ while(True):
     companies_search = l.get('companies', params={'email-domain' : company_domain })
     print companies_search
 	
-    for company_search in companies_search['values']:
-      print company_search['name']
-      company_id = company_search['id']
-
-      company_person_updates = l.get('companies/%d/updates' %(company_id),
-           #fields='update-content:(company-person-update:(person:(id)))',
-           params={'event-type': 'position-change',
-                   #'event-type': 'new-hire',
-                   'start': 0,
-                   'count': 500}
-          )
-
-      print "Company Updates: ", len(company_person_updates)
-      sys.stdin.read(1)
-
-      if company_person_updates.has_key('values'):
-        values = company_person_updates['values']
-        for update in values:
-          pp(update)
-          print '--------------------'
-          sys.stdin.read(1)
+##    for company_search in companies_search['values']:
+##      print company_search['name']
+##      company_id = company_search['id']
+##
+##      company_person_updates = l.get('companies/%d/updates' %(company_id),
+##           #fields='update-content:(company-person-update:(person:(id)))',
+##           params={'event-type': 'position-change',
+##                   #'event-type': 'new-hire',
+##                   'start': 0,
+##                   'count': 500}
+##          )
+##
+##      print "Company Updates: ", len(company_person_updates)
+##      sys.stdin.read(1)
+##
+##      if company_person_updates.has_key('values'):
+##        values = company_person_updates['values']
+##        for update in values:
+##          pp(update)
+##          print '--------------------'
+##          sys.stdin.read(1)
   except:
     pass
