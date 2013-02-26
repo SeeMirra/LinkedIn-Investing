@@ -11132,3 +11132,246 @@ Traceback (most recent call last):
 LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
 
 -------------
+Company Domain: sony.net
+Company Search: {'id': 20723, 'name': 'Sonic Automotive'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: southerncompany.com
+Company Search: {'id': 750229, 'name': 'Southern Cross Electrical Engineering'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: southerncoppercorp.com
+Company Search: {'id': 750229, 'name': 'Southern Cross Electrical Engineering'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: southwest.com
+Company Search: {'id': 750229, 'name': 'Southern Cross Electrical Engineering'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: unclebobs.com
+Company Search: {'id': 29183, 'name': 'Southwestern Energy'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: specialopportunitiesfund...
+Company Search: {'id': 29190, 'name': 'Sparton Corporation'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: spectraenergypartners.co...
+Company Search: {'id': 4064, 'name': 'Spectra Energy'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: speedwaymotorsports.com
+Company Search: {'id': 86904, 'name': 'United Industries'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: spiritrealty.com
+Company Search: {'id': 13775, 'name': 'Spirit AeroSystems'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: stagindustrial.com
+Company Search: {'id': 4345, 'name': 'St. Jude Medical'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 91, in <module>
+    for company_search in companies_search['values']:
+KeyError: 'values'
+
+-------------
+Company Domain: stagestoresinc.com
+Company Search: {'id': 4345, 'name': 'St. Jude Medical'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: standardpacifichomes.com...
+Company Search: {'id': 668844, 'name': 'Standard Motor Products'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: johnswan.co.uk
+Company Search: {'id': 107484, 'name': 'Standex International'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: stanleyblackanddecker.co...
+Company Search: {'id': 107484, 'name': 'Standex International'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: star-gas.com
+Company Search: {'id': 7124, 'name': 'Stantec'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: starwoodpropertytrust.co...
+Company Search: {'id': 1600776, 'name': 'Grosvenor House Dubai'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: schumag.de
+Company Search: {'id': 128221, 'name': 'Steinway Musical Instruments, Inc.'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: sterlite-industries.com
+Company Search: {'id': 21900, 'name': 'Sterling National Bank'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
+Company Domain: shiplpcef.com
+Company Search: {'id': 4249, 'name': 'EDF'}
+Error:
+Traceback (most recent call last):
+  File "C:\Python27\learn\LinkedIn-Investing\stocktosite.py", line 88, in <module>
+    companies_search = li.get('companies', params={'email-domain' : company_domain })
+  File "C:\Python27\lib\site-packages\linkedin.py", line 166, in get
+    return self.api_request(endpoint, fields=fields, params=params)
+  File "C:\Python27\lib\site-packages\linkedin.py", line 160, in api_request
+    raise LinkedinAPIError('Error Code: %d, Message: %s' % (status, content['message']))
+LinkedinAPIError: Error Code: 404, Message: Did not find company with the specified email domain(s)
+
+-------------
