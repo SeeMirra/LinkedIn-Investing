@@ -1,8 +1,336 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<error>
-  <status>403</status>
-  <timestamp>1361835555219</timestamp>
-  <request-id>8H7OHTDVPE</request-id>
-  <error-code>0</error-code>
-  <message>Access to network denied</message>
-</error>
+<updates total="8">
+  <update>
+    <timestamp>1361760704000</timestamp>
+    <update-key>CONN-26234979-*2-*1</update-key>
+    <update-type>CONN</update-type>
+    <update-content>
+      <person>
+        <id>m1jEJXINuG</id>
+        <first-name>Fan</first-name>
+        <last-name>Zhang</last-name>
+        <headline>PhD Candidate at Rutgers University</headline>
+        <connections total="1">
+          <person>
+            <id>A9KpZW-F0L</id>
+            <first-name>Tingting</first-name>
+            <last-name>Sun</last-name>
+            <headline>Research Assistant at Rutgers University</headline>
+            <api-standard-profile-request>
+              <url>http://api.linkedin.com/v1/people/A9KpZW-F0L</url>
+              <headers total="1">
+                <http-header>
+                  <name>x-li-auth-token</name>
+                  <value>name:KZpS</value>
+                </http-header>
+              </headers>
+            </api-standard-profile-request>
+            <site-standard-profile-request>
+              <url>http://www.linkedin.com/profile/view?id=233836665&amp;authType=name&amp;authToken=KZpS&amp;trk=api*a254998*s262822*</url>
+            </site-standard-profile-request>
+          </person>
+        </connections>
+        <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+        <api-standard-profile-request>
+          <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+          <headers total="1">
+            <http-header>
+              <name>x-li-auth-token</name>
+              <value>name:NksP</value>
+            </http-header>
+          </headers>
+        </api-standard-profile-request>
+        <site-standard-profile-request>
+          <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+        </site-standard-profile-request>
+      </person>
+    </update-content>
+    <is-commentable>false</is-commentable>
+    <is-likable>false</is-likable>
+  </update>
+  <update>
+    <timestamp>1361394208000</timestamp>
+    <update-key>CONN-26234979-*2-*1</update-key>
+    <update-type>CONN</update-type>
+    <update-content>
+      <person>
+        <id>m1jEJXINuG</id>
+        <first-name>Fan</first-name>
+        <last-name>Zhang</last-name>
+        <headline>PhD Candidate at Rutgers University</headline>
+        <connections total="1">
+          <person>
+            <id>1_VS3OoDtL</id>
+            <first-name>Chon Ju</first-name>
+            <last-name>Kim</last-name>
+            <headline>Teaching Assistant  at Polytechnic Institute of NYU</headline>
+            <picture-url>http://m3.licdn.com/mpr/mprx/0_uMN4t0qFarLeasBAmUvbtyQLmzlQ2y9AaZ8btyNzl95n143lhxkqpphR8gAM7UcjSsn6gREXOVbv</picture-url>
+            <api-standard-profile-request>
+              <url>http://api.linkedin.com/v1/people/1_VS3OoDtL</url>
+              <headers total="1">
+                <http-header>
+                  <name>x-li-auth-token</name>
+                  <value>name:V2pJ</value>
+                </http-header>
+              </headers>
+            </api-standard-profile-request>
+            <site-standard-profile-request>
+              <url>http://www.linkedin.com/profile/view?id=191081918&amp;authType=name&amp;authToken=V2pJ&amp;trk=api*a254998*s262822*</url>
+            </site-standard-profile-request>
+          </person>
+        </connections>
+        <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+        <api-standard-profile-request>
+          <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+          <headers total="1">
+            <http-header>
+              <name>x-li-auth-token</name>
+              <value>name:NksP</value>
+            </http-header>
+          </headers>
+        </api-standard-profile-request>
+        <site-standard-profile-request>
+          <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+        </site-standard-profile-request>
+      </person>
+    </update-content>
+    <is-commentable>false</is-commentable>
+    <is-likable>false</is-likable>
+  </update>
+  <update>
+    <timestamp>1360793197105</timestamp>
+    <update-key>UNIU-26234979-5707580349790306305-SHARE</update-key>
+    <update-type>STAT</update-type>
+    <update-content>
+      <person>
+        <id>m1jEJXINuG</id>
+        <first-name>Fan</first-name>
+        <last-name>Zhang</last-name>
+        <headline>PhD Candidate at Rutgers University</headline>
+        <current-status>http://lnkd.in/eDRdWk</current-status>
+        <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+        <api-standard-profile-request>
+          <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+          <headers total="1">
+            <http-header>
+              <name>x-li-auth-token</name>
+              <value>name:NksP</value>
+            </http-header>
+          </headers>
+        </api-standard-profile-request>
+        <site-standard-profile-request>
+          <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+        </site-standard-profile-request>
+      </person>
+    </update-content>
+    <is-commentable>true</is-commentable>
+    <update-comments total="0" />
+    <is-likable>true</is-likable>
+    <is-liked>false</is-liked>
+    <num-likes>0</num-likes>
+  </update>
+  <update>
+    <timestamp>1360779547959</timestamp>
+    <update-key>UNIU-26234979-5707523101118443520-SHARE</update-key>
+    <update-type>STAT</update-type>
+    <update-content>
+      <person>
+        <id>m1jEJXINuG</id>
+        <first-name>Fan</first-name>
+        <last-name>Zhang</last-name>
+        <headline>PhD Candidate at Rutgers University</headline>
+        <current-status>http://lnkd.in/rqPgee</current-status>
+        <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+        <api-standard-profile-request>
+          <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+          <headers total="1">
+            <http-header>
+              <name>x-li-auth-token</name>
+              <value>name:NksP</value>
+            </http-header>
+          </headers>
+        </api-standard-profile-request>
+        <site-standard-profile-request>
+          <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+        </site-standard-profile-request>
+      </person>
+    </update-content>
+    <is-commentable>true</is-commentable>
+    <update-comments total="0" />
+    <is-likable>true</is-likable>
+    <is-liked>false</is-liked>
+    <num-likes>0</num-likes>
+  </update>
+  <update>
+    <timestamp>1360778945000</timestamp>
+    <update-key>CONN-26234979-*2-*1</update-key>
+    <update-type>CONN</update-type>
+    <update-content>
+      <person>
+        <id>m1jEJXINuG</id>
+        <first-name>Fan</first-name>
+        <last-name>Zhang</last-name>
+        <headline>PhD Candidate at Rutgers University</headline>
+        <connections total="1">
+          <person>
+            <id>XLslEmW0Pu</id>
+            <first-name>Jun</first-name>
+            <last-name>Tan</last-name>
+            <headline>Graduate Asistant at Rutgers University</headline>
+            <picture-url>http://m3.licdn.com/mpr/mprx/0_UZgaG69UcjJTmChVM0ulG5FJcy7CC3rVMMWlG5BFHVUtg5FscYSGuLidJlfg36A9sUxrDGWJA2Q8</picture-url>
+            <api-standard-profile-request>
+              <url>http://api.linkedin.com/v1/people/XLslEmW0Pu</url>
+              <headers total="1">
+                <http-header>
+                  <name>x-li-auth-token</name>
+                  <value>name:VbRq</value>
+                </http-header>
+              </headers>
+            </api-standard-profile-request>
+            <site-standard-profile-request>
+              <url>http://www.linkedin.com/profile/view?id=94842611&amp;authType=name&amp;authToken=VbRq&amp;trk=api*a254998*s262822*</url>
+            </site-standard-profile-request>
+          </person>
+        </connections>
+        <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+        <api-standard-profile-request>
+          <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+          <headers total="1">
+            <http-header>
+              <name>x-li-auth-token</name>
+              <value>name:NksP</value>
+            </http-header>
+          </headers>
+        </api-standard-profile-request>
+        <site-standard-profile-request>
+          <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+        </site-standard-profile-request>
+      </person>
+    </update-content>
+    <is-commentable>false</is-commentable>
+    <is-likable>false</is-likable>
+  </update>
+  <update>
+    <timestamp>1360679164000</timestamp>
+    <update-key>CONN-26234979-*2-*1</update-key>
+    <update-type>CONN</update-type>
+    <update-content>
+      <person>
+        <id>m1jEJXINuG</id>
+        <first-name>Fan</first-name>
+        <last-name>Zhang</last-name>
+        <headline>PhD Candidate at Rutgers University</headline>
+        <connections total="1">
+          <person>
+            <id>WWJnQfhlhj</id>
+            <first-name>Sedat</first-name>
+            <last-name>Ozer</last-name>
+            <headline>Research Assistant at Vizlab, Rutgers University</headline>
+            <picture-url>http://m3.licdn.com/mpr/mprx/0_OEI5XqpHQm58wfOsOewsXnZIXfCGIE7syH0VXBsRR2n-qaZVtuRWEcazobGjeSmn0WdUIrHsj4aS</picture-url>
+            <api-standard-profile-request>
+              <url>http://api.linkedin.com/v1/people/WWJnQfhlhj</url>
+              <headers total="1">
+                <http-header>
+                  <name>x-li-auth-token</name>
+                  <value>name:XQcq</value>
+                </http-header>
+              </headers>
+            </api-standard-profile-request>
+            <site-standard-profile-request>
+              <url>http://www.linkedin.com/profile/view?id=228821925&amp;authType=name&amp;authToken=XQcq&amp;trk=api*a254998*s262822*</url>
+            </site-standard-profile-request>
+          </person>
+        </connections>
+        <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+        <api-standard-profile-request>
+          <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+          <headers total="1">
+            <http-header>
+              <name>x-li-auth-token</name>
+              <value>name:NksP</value>
+            </http-header>
+          </headers>
+        </api-standard-profile-request>
+        <site-standard-profile-request>
+          <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+        </site-standard-profile-request>
+      </person>
+    </update-content>
+    <is-commentable>false</is-commentable>
+    <is-likable>false</is-likable>
+  </update>
+  <update>
+    <timestamp>1360357539439</timestamp>
+    <update-key>UNIU-c1337-5705753069145309184-CMPY_FOLLOWER</update-key>
+    <update-type>MSFC</update-type>
+    <update-content>
+      <company>
+        <id>1337</id>
+        <name>LinkedIn</name>
+      </company>
+      <company-person-update>
+        <person>
+          <id>m1jEJXINuG</id>
+          <first-name>Fan</first-name>
+          <last-name>Zhang</last-name>
+          <headline>PhD Candidate at Rutgers University</headline>
+          <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+          <api-standard-profile-request>
+            <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+            <headers total="1">
+              <http-header>
+                <name>x-li-auth-token</name>
+                <value>name:NksP</value>
+              </http-header>
+            </headers>
+          </api-standard-profile-request>
+          <site-standard-profile-request>
+            <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+          </site-standard-profile-request>
+        </person>
+        <action>
+          <code>started-following</code>
+        </action>
+      </company-person-update>
+    </update-content>
+    <is-commentable>false</is-commentable>
+    <is-likable>false</is-likable>
+  </update>
+  <update>
+    <timestamp>1359864291158</timestamp>
+    <update-key>UNIU-c96622-5703684235894722560-CMPY_FOLLOWER</update-key>
+    <update-type>MSFC</update-type>
+    <update-content>
+      <company>
+        <id>96622</id>
+        <name>Twitter</name>
+      </company>
+      <company-person-update>
+        <person>
+          <id>m1jEJXINuG</id>
+          <first-name>Fan</first-name>
+          <last-name>Zhang</last-name>
+          <headline>PhD Candidate at Rutgers University</headline>
+          <picture-url>http://m3.licdn.com/mpr/mprx/0_x9J4KPQ7krQAyuntA-UFKAkie-ATpfntjADbKAnPBcLliwT-1rdqOlGgQylYxHBYYzR6xnXNsQcn</picture-url>
+          <api-standard-profile-request>
+            <url>http://api.linkedin.com/v1/people/m1jEJXINuG</url>
+            <headers total="1">
+              <http-header>
+                <name>x-li-auth-token</name>
+                <value>name:NksP</value>
+              </http-header>
+            </headers>
+          </api-standard-profile-request>
+          <site-standard-profile-request>
+            <url>http://www.linkedin.com/profile/view?id=26234979&amp;authType=name&amp;authToken=NksP&amp;trk=api*a254998*s262822*</url>
+          </site-standard-profile-request>
+        </person>
+        <action>
+          <code>started-following</code>
+        </action>
+      </company-person-update>
+    </update-content>
+    <is-commentable>false</is-commentable>
+    <is-likable>false</is-likable>
+  </update>
+</updates>

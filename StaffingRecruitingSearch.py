@@ -5,10 +5,10 @@
 ##OAUTH_TOKEN_SECRET = '5f15124b-13f6-4f7f-a372-5ce475435013'
 ##
 #praful account
-API_KEY = 'ghxn2rzq9hdi'
-API_SECRET = 'TaYCyB20AXb0t5o0'
-OAUTH_TOKEN = 'b2053daa-ad68-4da4-b214-b2d798a65b97'
-OAUTH_TOKEN_SECRET = '90bced53-6783-4a88-a01d-c747a1ef6e01'
+API_KEY = 'onwzvln0ksj5'
+API_SECRET = 'oTmzJwbB9AFSHagM'
+OAUTH_TOKEN = '420be95e-de13-4002-9023-42835b337245'
+OAUTH_TOKEN_SECRET = 'f25efa3c-4d09-40e2-9045-171029899821'
 
 ##from linkedin import LinkedinAPI
 ##from pprint import pprint as pp

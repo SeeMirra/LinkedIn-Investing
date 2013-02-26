@@ -9,11 +9,11 @@ import datetime
 from xml.dom import minidom
 
 
-#Sree's tokens
-API_KEY = 'ghxn2rzq9hdi'
-API_SECRET = 'TaYCyB20AXb0t5o0'
-OAUTH_TOKEN = 'b2053daa-ad68-4da4-b214-b2d798a65b97'
-OAUTH_TOKEN_SECRET = '90bced53-6783-4a88-a01d-c747a1ef6e01'
+#praful tokens
+API_KEY = 'onwzvln0ksj5'
+API_SECRET = 'oTmzJwbB9AFSHagM'
+OAUTH_TOKEN = '420be95e-de13-4002-9023-42835b337245'
+OAUTH_TOKEN_SECRET = 'f25efa3c-4d09-40e2-9045-171029899821'
 #redundant, remove later
 consumer_key      =   API_KEY
 consumer_secret  =   API_SECRET
@@ -39,16 +39,15 @@ f.close()
 
 
 #create data structure
-class Updates(object):
+class Person(object):
     _registry = []
 
-    def __init__(self, p_id, p_first, p_last, update_type, time):
+    def __init__(self, p_id, p_first, p_last):
         self._registry.append(self)
         self.id = p_id
         self.first = p_first
         self.last = p_last
-        self.type = update_type
-        self.time = time
+        self.updates = []
 
     def getID(self):
         return self.id
@@ -59,20 +58,50 @@ class Updates(object):
     def getLast(self):
         return self.last
 
-    def getType(self):
-        return self.type
+    def addUpdate(self,u_type, u_time):
+        self.updates.append((u_time, u_type))
 
-    def getTime(self):
-        t = int(t)
-        t = t/1000.
-        return datetime.datetime.fromtimestamp(t).strftime("%a %b-%d-%Y %I:%m %p") #return string
+    def getUpdates(self):
+        print self.updates
 
     def getStamp(self):
         return self.time
 
-    def __str__(self):
-        t = self.getType()
-        return t
+
+##    class Updates(object):
+##    _registry = []
+##
+##    def __init__(self, p_id, p_first, p_last, update_type, time):
+##        self._registry.append(self)
+##        self.id = p_id
+##        self.first = p_first
+##        self.last = p_last
+##        self.type = update_type
+##        self.time = time
+##
+##    def getID(self):
+##        return self.id
+##
+##    def getFirst(self):
+##        return self.first
+##
+##    def getLast(self):
+##        return self.last
+##
+##    def getType(self):
+##        return self.type
+##
+##    def getTime(self):
+##        t = int(self.time)
+##        t = t/1000.
+##        return datetime.datetime.fromtimestamp(t).strftime("%a %b-%d-%Y %I:%m %p") #return string
+##
+##    def getStamp(self):
+##        return self.time
+##
+##    def __str__(self):
+##        t = self.getType()
+##        return t
         
 
 
@@ -124,35 +153,51 @@ people = xmldoc.getElementsByTagName('person')
 for person in people:
     if str(person.childNodes[1].childNodes[0].nodeValue) != ('private'):
         ids.append(str(person.childNodes[1].childNodes[0].nodeValue))
-        print person.childNodes[3].firstChild.nodeValue
-        
-        f = str(person.childNodes[3].firstChild.nodeValue)
-        l = str(person.childNodes[5].firstChild.nodeValue)
+        #print person.childNodes[3].firstChild.nodeValue
+        f = str(person.childNodes[3].firstChild.nodeValue.encode("utf-8"))
+        l = str(person.childNodes[5].firstChild.nodeValue.encode("utf-8"))
         names.append([f,l])
+
 
 #use id's to get list of update times, and update types
 for i in range(len(ids)):
-    time = []
-    updates = []
+    #time = []
+    #updates = []
     url = "http://api.linkedin.com/v1/people/id=%s/network/updates?scope=self" %ids[i]
     resp,content = client.request(url)
     xmldoc = minidom.parseString(content)
     timelist = xmldoc.getElementsByTagName('timestamp')
     typelist = xmldoc.getElementsByTagName('update-type')
-    for t in timelist:
-        time.append(int(t.firstChild.nodeValue))
+    p = Person(ids[i],names[i][0],names[i][1])
+    if len(typelist) > 0:
+        for j in range(len(ids)):
+            p.addUpdate(typelist[j].firstChild.nodeValue, timelist[j].firstChild.nodeValue)
 
-    for t in typelist:
-        updates.append(str(t.firstChild.nodeValue))
+
+
     
+##    if len(typelist) > 0:
+##        for j in range(len(typelist)):
+##            update = typelist[j].firstChild.nodeValue
+##            time = timelist[j].firstChild.nodeValue
+##            Updates(ids[i], names[i][0], names[i][1], update, time)
+            
+
+
+##    for t in timelist:
+##        time.append(int(t.firstChild.nodeValue))
+##
+##    for t in typelist:
+##        updates.append(str(t.firstChild.nodeValue))
+##    
 ##    if len(typelist) > 0:
 ##        for j in range(len(typelist)):
 ##            u = Updates(ids[i],names[i][0],names[i][1],typelist[j],timelist[j])
 ##            print u
 
-    print "Name: ", names[i][0]," ",names[i][1]
-    print "Time: ", time
-    print "Updates: ", updates
+##    print "Name: ", names[i][0]," ",names[i][1]
+##    print "Time: ", time
+##    print "Updates: ", updates
 
     
 
