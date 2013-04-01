@@ -1,31 +1,40 @@
-# Praful Account
-API_KEY = 'ghxn2rzq9hdi'
-API_SECRET = 'TaYCyB20AXb0t5o0'
-OAUTH_TOKEN = '908ac8c2-1574-4033-bbf3-d409dfe8baf0'
-OAUTH_TOKEN_SECRET = '5f15124b-13f6-4f7f-a372-5ce475435013'
-
 from linkedin import LinkedinAPI
-from pprint import pprint as pp
-import json
+#from pprint import pprint as pp
+#import json
 
+class LinkedIn:
+        def __init__(self, api_key, api_secret,
+                     oauth_token=None, oauth_token_secret=None):
+        if not oauth_token or not oauth_token_secret:
+            tokens = self.get_oauth2_tokens(api_key,
+    									    api_secret)
+            oauth_token = tokens['oauth_token']
+            oauth_token_secret = tokens['oauth_token_secret']
 
-l = LinkedinAPI(api_key=API_KEY,
-        api_secret=API_SECRET,
-        oauth_token=OAUTH_TOKEN,
-        oauth_token_secret=OAUTH_TOKEN_SECRET,)
+        self.liAPI = LinkedinAPI(api_key,
+                                 api_secret,
+                                 oauth_token,
+                                 oauth_token_secret)
 
+    def my_network_updates(self):
+        return self.liAPI.get('people/~/network/network-stats')
+    
+    def get_oauth2_tokens(self, api_key, api_secret):
+        lo = LinkedinAPI(api_key,
+                         api_secret,
+                         callback_url=None)
 
-# Get network updates
-my_network_updates = l.get('people/~/network/network-stats')
-print json.dumps(my_network_updates, indent=4)
+        return lo.get_authentication_tokens()
 
-lo = LinkedinAPI(api_key=API_KEY,
-        api_secret=API_SECRET,
-        callback_url=None)
-
-oauth_tokens = lo.get_authentication_tokens()
-pp(oauth_tokens)
-
+if __name__ == '__main__':
+    # Praful Account
+    api_key = 'za1xifvosj7p'
+    api_secret = 'HhaxCgXUsyrehODw'
+    oauth_token = '1dddc1d6-6585-4314-9195-dda3edea33c4'
+    oauth_token_secret = '11156d45-6555-4d64-9f78-3921fbdb9ffa'
+    
+    liObj = LinkedIn(api_key, api_secret, oauth_token, oauth_token_secret)
+    print liObj.my_network_updates()
 
 # Get search results
 """
